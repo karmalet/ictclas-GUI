@@ -19,7 +19,7 @@ import chardet, os
 #Change libFile when you are not using a Win64 environment:
 ##libFile = 'c:/users/karma/onedrive/ictclas2016/nlpir/NLPIR64.dll'
 ##libFile = 'C:/Users/Administrator/OneDrive/ictclas2016/nlpir/NLPIR32.dll'
-libFile = 'NLPIR64.dll'
+libFile = './NLPIR64.dll'
 
 dll =  CDLL(libFile)
 # Init = loadFun('NLPIR_Init',c_int, [c_char_p, c_int, c_char_p])
