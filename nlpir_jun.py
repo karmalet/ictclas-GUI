@@ -11,14 +11,7 @@ from ctypes import *
 from tkinter import filedialog
 import chardet, os
 
-### set working directory
-##import os
-##os.chdir('D:/ICTCLAS2016')
-
 #NLPIR2014 Lib File (NLPIR64, NLPIR32, libNLPIR64.so, libNLPIR32.so),
-#Change libFile when you are not using a Win64 environment:
-##libFile = 'c:/users/karma/onedrive/ictclas2016/nlpir/NLPIR64.dll'
-##libFile = 'C:/Users/Administrator/OneDrive/ictclas2016/nlpir/NLPIR32.dll'
 libFile = './NLPIR64.dll'
 
 dll =  CDLL(libFile)
