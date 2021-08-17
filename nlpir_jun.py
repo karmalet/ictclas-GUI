@@ -12,8 +12,9 @@ from tkinter import filedialog
 import chardet, os
 
 #NLPIR2014 Lib File (NLPIR64, NLPIR32, libNLPIR64.so, libNLPIR32.so),
-libFile = './NLPIR64.dll'
-# libFile = 'NLPIR32.dll' # for python 32-bit environment
+libFile = 'libNLPIR.so'
+# libFile = 'NLPIR64.dll' # for python Win64 environment
+# libFile = 'NLPIR32.dll' # for python Win32 environment
 
 dll =  CDLL(libFile)
 # Init = loadFun('NLPIR_Init',c_int, [c_char_p, c_int, c_char_p])
