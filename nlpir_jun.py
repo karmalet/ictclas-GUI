@@ -11,8 +11,8 @@ from ctypes import *
 from tkinter import filedialog
 import chardet, os
 
-#NLPIR2014 Lib File (NLPIR64, NLPIR32, libNLPIR64.so, libNLPIR32.so),
-libFile = './libNLPIR.so'
+#NLPIR2014 Lib File (NLPIR64.dll, NLPIR32.dll, libNLPIR64.so, libNLPIR32.so),
+libFile = 'libNLPIR64.so'
 # libFile = 'NLPIR64.dll' # for python Win64 environment
 # libFile = 'NLPIR32.dll' # for python Win32 environment
 
