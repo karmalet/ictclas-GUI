@@ -10,6 +10,7 @@
 
 from tkinter import *
 from tkinter import ttk
+from tkinter import filedialog
 import nlpir_jun, re
 from nlpir_jun import detect_encoding, pos_tagging, Seg, to_byte,\
      tagprocessing, segprocessing
