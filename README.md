@@ -23,8 +23,9 @@ d:\ictlas_GUI-master> pip install -r requirements.txt
 d:\ictlas_GUI-master> python Ictclas_gui.py
 ```
 
-5. error 발생 시: nlpir_jun.py 파일 내 .dll 세팅 조정
+5. error 발생 시: nlpir_jun.py 파일 편집하여 .dll 세팅 조정
 ```
+# libFile = '/content/ictclas_GUI/libNLPIR64.so'
 libFile = 'NLPIR64.dll' # 64 bit python 설치하였을 경우, 해당 행 앞의 # 표시 삭제
 libFile = 'NLPIR32.dll' # 32 bit python 설치하였을 경우, 해당 행 앞의 # 표시 삭제
 ```
