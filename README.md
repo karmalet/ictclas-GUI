@@ -20,7 +20,7 @@ d:\ictclas_GUI-master> pip install -r requirements.txt
 
 4.   Ictclas_gui.py 실행
 ```
-d:\ictclas_GUI-master> python Ictclas_gui.py
+d:\ictclas_GUI-master> python ictclas_gui.py
 ```
 
 5. error 발생 시: nlpir_jun.py 파일 편집하여 .dll 세팅 조정
