@@ -9,7 +9,7 @@ For personal, non-profit use only.
 > 1.2 https://www.anaconda.com/products/individual#Downloads (확장) 설치 후 Anaconda Prompt를 사용, 환경 변수 설정 불필요
 
 2. [Github ictclas_GUI](https://github.com/karmalet/ictclas_GUI)에서 ICTCLAS download zip 내려받기 & 압축 해제
-> (예시) d:\ictlas_GUI-master <br>
+> (예시) d:\ictclas_GUI-master <br>
 
 3. 의존 패키지(dependency) 설치
 > 1.1의 경우 cmd에서, 1.2의 경우 Anaconda Prompt에서 아래 명령을 실행합니다
