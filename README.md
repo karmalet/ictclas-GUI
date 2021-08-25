@@ -14,13 +14,13 @@ For personal, non-profit use only.
 3. 의존 패키지(dependency) 설치
 > 1.1의 경우 cmd에서, 1.2의 경우 Anaconda Prompt에서 아래 명령을 실행합니다
 ```
-d:\ictlas_GUI-master> pip install -r requirements.txt
+d:\ictclas_GUI-master> pip install -r requirements.txt
 ```
 > 3 단계에서 문제가 생길 경우 환경 변수 설정 확인
 
 4.   Ictclas_gui.py 실행
 ```
-d:\ictlas_GUI-master> python Ictclas_gui.py
+d:\ictclas_GUI-master> python Ictclas_gui.py
 ```
 
 5. error 발생 시: nlpir_jun.py 파일 편집하여 .dll 세팅 조정
