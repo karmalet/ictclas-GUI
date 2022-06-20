@@ -332,19 +332,7 @@ if __name__ == "__main__":
     print('ICTCLAS 2016')
     SetPOSmap(2)
     print('北大二级标注集')
-    path = r'C:/Users/Administrator/Downloads/Xi_Yuanwen/'
-    dirs = os.listdir(path)
-    del(dirs[0])
-    dir_shu = len(dirs) # del irrelevant dir pos, pospos
-    if dir_shu == 1441:
-        fileto = r'C:/Users/Administrator/Downloads/Xi_Yuanwen/pos/'
-        for file in dirs:
-            with open(path+file, encoding="UTF8") as f:
-                paragraph = f.read()
-            with open(fileto+file, 'w', encoding='UTF8') as ft:
-                seg_result = tagprocessing(paragraph)
-                seg_result = '\n'.join(seg_result)
-                ft.write(seg_result)
+
 ##    
 ##    p = "Big News: @解放日报 [最右]【呼市铁路局原副局长被判死缓 最头痛藏钱】2013年12月底，呼市铁路局原副局长马俊飞因受贿被判死缓。他说最头痛藏钱，从呼和浩特到北京，马俊飞又是购房又是租房，在挥之不去的恐惧中，人民币8800万、美元419万、欧元30万、港币27万，黄金43.3公斤，逐渐堆满了两所房子…… http://t.cn/8kgR6Yi"
 ##    b = bytes(p, 'UTF8')
