@@ -32,6 +32,7 @@ libFile = 'NLPIR32.dll' # 32 bit python 설치하였을 경우, 해당 행 앞�
 6. License 만료 시 NLPIR.user 파일 갱신<br>
 [1달 라이센스 파일 다운로드](https://github.com/NLPIR-team/NLPIR/blob/master/License/license%20for%20a%20month/NLPIR-ICTCLAS%E5%88%86%E8%AF%8D%E7%B3%BB%E7%BB%9F%E6%8E%88%E6%9D%83/NLPIR.user)<br>
 > `d:\ictclas_GUI-master\Data\`에 복사
+<br>
 
 ## 문제 해결
 실행후 생성되는 .err 파일 내용 확인
