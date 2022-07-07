@@ -29,3 +29,5 @@ d:\ictclas_GUI-master> python ictclas_gui.py
 libFile = 'NLPIR64.dll' # 64 bit python 설치하였을 경우, 해당 행 앞의 # 표시 삭제
 libFile = 'NLPIR32.dll' # 32 bit python 설치하였을 경우, 해당 행 앞의 # 표시 삭제
 ```
+6. License 만료 시 NLPIR.user 파일 갱신<br>
+[1달 라이센스 파일 다운로드](https://github.com/NLPIR-team/NLPIR/blob/master/License/license%20for%20a%20month/NLPIR-ICTCLAS%E5%88%86%E8%AF%8D%E7%B3%BB%E7%BB%9F%E6%8E%88%E6%9D%83/NLPIR.user)
