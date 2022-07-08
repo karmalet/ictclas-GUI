@@ -3,6 +3,9 @@ Graphic User Interface for ICTCLAS Chinese word segmentation &amp; POS tagging t
 All rights belong to its owner, NLPIR-team(https://github.com/NLPIR-team).  
 For personal, non-profit use only.
 
+## 2022-07-08 UPDATE ##
+아래의 1~6 수행할 필요 없이 실행 파일(ictclas_gui.exe) 더블 클릭으로 간편하게 실행하세요.
+
 ## **Windows 로컬에서 실행하기**
 1.   컴퓨터에 Python 환경 설치 (아래 중 택 1)
 > 1.1 https://www.python.org/downloads/ (기본) 설치 후 python, pip 실행을 위해 python 환경 변수 설정 필요 <br>
